@@ -3,6 +3,8 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
+
+
         Pedido novoPedido = new Pedido();
         novoPedido.numeroPedido = 1;
         novoPedido.codigoCliente = 2;
@@ -24,5 +26,6 @@ public class Main {
 
         //Vincula o item criado com o item pedido
         novoPedido.itensPedido.add(item);
+        novoPedido.itensPedido.add(novoitem);
     }
 }
